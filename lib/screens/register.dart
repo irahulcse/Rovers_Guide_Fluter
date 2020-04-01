@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:rovers_guide/screens/main_screen.dart';
 
-
 class RegisterScreen extends StatefulWidget {
   @override
   _RegisterScreenState createState() => _RegisterScreenState();
@@ -16,11 +15,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.fromLTRB(20.0,0,20,0),
+      padding: EdgeInsets.fromLTRB(20.0, 0, 20, 0),
       child: ListView(
         shrinkWrap: true,
         children: <Widget>[
-
           SizedBox(height: 10.0),
           Container(
             alignment: Alignment.center,
@@ -36,9 +34,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
             ),
           ),
-
           SizedBox(height: 30.0),
-
           Card(
             elevation: 3.0,
             child: Container(
@@ -57,10 +53,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   contentPadding: EdgeInsets.all(10.0),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(5.0),
-                    borderSide: BorderSide(color: Colors.white,),
+                    borderSide: BorderSide(
+                      color: Colors.white,
+                    ),
                   ),
                   enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.white,),
+                    borderSide: BorderSide(
+                      color: Colors.white,
+                    ),
                     borderRadius: BorderRadius.circular(5.0),
                   ),
                   hintText: "Username",
@@ -78,9 +78,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
             ),
           ),
-
           SizedBox(height: 10.0),
-
           Card(
             elevation: 3.0,
             child: Container(
@@ -99,10 +97,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   contentPadding: EdgeInsets.all(10.0),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(5.0),
-                    borderSide: BorderSide(color: Colors.white,),
+                    borderSide: BorderSide(
+                      color: Colors.white,
+                    ),
                   ),
                   enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.white,),
+                    borderSide: BorderSide(
+                      color: Colors.white,
+                    ),
                     borderRadius: BorderRadius.circular(5.0),
                   ),
                   hintText: "Email",
@@ -120,9 +122,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
             ),
           ),
-
           SizedBox(height: 10.0),
-
           Card(
             elevation: 3.0,
             child: Container(
@@ -141,10 +141,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   contentPadding: EdgeInsets.all(10.0),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(5.0),
-                    borderSide: BorderSide(color: Colors.white,),
+                    borderSide: BorderSide(
+                      color: Colors.white,
+                    ),
                   ),
                   enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.white,),
+                    borderSide: BorderSide(
+                      color: Colors.white,
+                    ),
                     borderRadius: BorderRadius.circular(5.0),
                   ),
                   hintText: "Password",
@@ -163,10 +167,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
             ),
           ),
-
-
           SizedBox(height: 40.0),
-
           Container(
             height: 50.0,
             child: RaisedButton(
@@ -176,10 +177,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   color: Colors.white,
                 ),
               ),
-              onPressed: (){
+              onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (BuildContext context){
+                    builder: (BuildContext context) {
                       return MainScreen();
                     },
                   ),
@@ -188,19 +189,18 @@ class _RegisterScreenState extends State<RegisterScreen> {
               color: Theme.of(context).accentColor,
             ),
           ),
-
           SizedBox(height: 10.0),
-          Divider(color: Theme.of(context).accentColor,),
+          Divider(
+            color: Theme.of(context).accentColor,
+          ),
           SizedBox(height: 10.0),
-
-
           Center(
             child: Container(
-              width: MediaQuery.of(context).size.width/2,
+              width: MediaQuery.of(context).size.width / 2,
               child: Row(
                 children: <Widget>[
                   RawMaterialButton(
-                    onPressed: (){},
+                    onPressed: () {},
                     fillColor: Colors.blue[800],
                     shape: CircleBorder(),
                     elevation: 4.0,
@@ -213,9 +213,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     ),
                   ),
-
                   RawMaterialButton(
-                    onPressed: (){},
+                    onPressed: () {},
                     fillColor: Colors.white,
                     shape: CircleBorder(),
                     elevation: 4.0,
@@ -232,10 +231,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
             ),
           ),
-
           SizedBox(height: 20.0),
-
-
         ],
       ),
     );
