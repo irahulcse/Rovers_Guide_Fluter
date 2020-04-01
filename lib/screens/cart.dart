@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rovers_guide/screens/checkout.dart';
-import 'package:rovers_guide/util/const.dart';
 import 'package:rovers_guide/util/foods.dart';
 import 'package:rovers_guide/widgets/cart_item.dart';
-import 'package:rovers_guide/widgets/smooth_star_rating.dart';
 
 class CartScreen extends StatefulWidget {
   @override
