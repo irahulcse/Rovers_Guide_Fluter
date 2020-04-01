@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rovers_guide/screens/categories_screen.dart';
 
-
 class HomeCategory extends StatefulWidget {
   final IconData icon;
   final String title;
@@ -9,12 +8,13 @@ class HomeCategory extends StatefulWidget {
   final Function tap;
   final bool isHome;
 
-  HomeCategory({
-    Key key,
-    @required this.icon,
-    @required this.title,
-    @required this.items,
-    this.tap, this.isHome})
+  HomeCategory(
+      {Key key,
+      @required this.icon,
+      @required this.title,
+      @required this.items,
+      this.tap,
+      this.isHome})
       : super(key: key);
 
   @override
@@ -25,17 +25,20 @@ class _HomeCategoryState extends State<HomeCategory> {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: widget.isHome?(){
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (BuildContext context){
-              return CategoriesScreen();
-            },
-          ),
-        );
-      }:widget.tap,
+      onTap: widget.isHome
+          ? () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) {
+                    return CategoriesScreen();
+                  },
+                ),
+              );
+            }
+          : widget.tap,
       child: Card(
-        shape: RoundedRectangleBorder( borderRadius: BorderRadius.circular(10.0)),
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
         elevation: 4.0,
         child: Padding(
           padding: EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
@@ -61,7 +64,6 @@ class _HomeCategoryState extends State<HomeCategory> {
                       fontSize: 17,
                     ),
                   ),
-
                   Text(
                     "${widget.items} Items",
                     style: TextStyle(
