@@ -7,6 +7,7 @@ List<Map> foods = [
     "img": "assets/food2.jpeg",
     "name": "Fruit Salad"
   },
+
   {
     "img": "assets/food3.jpeg",
     "name": "Hamburger"
