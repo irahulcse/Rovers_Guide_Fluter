@@ -51552,10 +51552,10 @@ C.pq=new K.yI(62366,"FontAwesomeBrands","font_awesome_flutter",!1)
 C.pr=new K.yI(61856,"FontAwesomeBrands","font_awesome_flutter",!1)
 C.xb=new K.LP(61597,"FontAwesomeRegular","font_awesome_flutter",!1)
 C.xc=new K.jQ(63512,"FontAwesomeSolid","font_awesome_flutter",!1)
-C.xd=new K.jQ(61949,"FontAwesomeSolid","font_awesome_flutter",!1)
-C.xe=new K.jQ(63468,"FontAwesomeSolid","font_awesome_flutter",!1)
+C.xd=new K.jQ(63468,"FontAwesomeSolid","font_awesome_flutter",!1)
 C.xf=new K.jQ(62815,"FontAwesomeSolid","font_awesome_flutter",!1)
-C.xg=new K.jQ(63279,"FontAwesomeSolid","font_awesome_flutter",!1)
+C.xe=new K.jQ(62868,"FontAwesomeSolid","font_awesome_flutter",!1)
+C.xg=new K.jQ(62886,"FontAwesomeSolid","font_awesome_flutter",!1)
 C.xh=new X.bu(57534,"MaterialIcons",null,!1)
 C.xi=new X.bu(57569,"MaterialIcons",null,!1)
 C.ps=new X.bu(57676,"MaterialIcons",null,!1)
@@ -53107,7 +53107,7 @@ $.b8=null
 $.ab=P.v(H.ar("eK<V<P>>"),u.I)
 $.aO=1
 $.a4d=function(){var t=u.N,s=u.K
-return[P.ay(["name","Drinks","icon",C.xg,"items",5],t,s),P.ay(["name","Miscellaneous","icon",C.xf,"items",20],t,s),P.ay(["name","Desert","icon",C.xd,"items",9],t,s),P.ay(["name","Fast Food","icon",C.xc,"items",5],t,s),P.ay(["name","Meals","icon",C.xe,"items",15],t,s)]}()
+return[P.ay(["name","Hotels","icon",C.xe,"items",5],t,s),P.ay(["name","Miscellaneous","icon",C.xf,"items",20],t,s),P.ay(["name","Monuments","icon",C.xg,"items",9],t,s),P.ay(["name","Fast Food","icon",C.xc,"items",5],t,s),P.ay(["name","Meals","icon",C.xd,"items",15],t,s)]}()
 $.et=function(){var t=u.z
 return H.b([P.ay(["img","assets/hotel3.jpg","name","Hotel Milan"],t,t),P.ay(["img","assets/hotel4.jpg","name","Hotel Sultan"],t,t),P.ay(["img","assets/hotel6.jpg","name","Paradise Hotel"],t,t),P.ay(["img","assets/hotel7.jpg","name","Never Say Never Motel"],t,t),P.ay(["img","assets/hotel9.jpg","name","Quick Bite Hotels"],t,t),P.ay(["img","assets/hotel11.jpg","name","Kick Me Nice"],t,t)],u.vp)}()
 $.mW=null})();(function lazyInitializers(){var t=hunkHelpers.lazy
@@ -53270,8 +53270,8 @@ s=u.N
 return new N.GK(H.b(q,u.s),0,new N.Mi(H.b([],u.Q)),r,P.v(s,H.ar("mT<El>")),P.v(s,H.ar("El")),P.a9j(u.K,s),0,r,!1,!1,r,0,r,r,N.a2V(),N.a2V())})
 t($,"aes","a5V",function(){return new D.Oc($.a5U())})
 t($,"aen","a5U",function(){return new D.F_(P.v(u.N,H.ar("am<bj>(bj)")))})
-t($,"aed","a0r",function(){var s="Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",r=u.N
-return[P.ay(["img","assets/cm1.jpeg","comment","Hello World","name","Jane Doe"],r,r),P.ay(["img","assets/cm2.jpeg","comment","The food is really delicious","name","Jane Joe"],r,r),P.ay(["img","assets/cm3.jpeg","comment",s,"name","Mary Jane"],r,r),P.ay(["img","assets/cm4.jpeg","comment",s,"name","Jane Jones"],r,r)]})
+t($,"aed","a0r",function(){var s=u.N
+return[P.ay(["img","assets/cm1.jpeg","comment","Really Nice Accomdation with all the facilities","name","Jyoti Kalkal"],s,s),P.ay(["img","assets/cm2.jpeg","comment","The food is really delicious","name","Sonal Ranjan"],s,s),P.ay(["img","assets/cm3.jpeg","comment","If you have to choose one spot to go and see in New Delhi then this is the spot ...it's truly amazing inside, Breathtaking ...This Hotel and its grounds took my breath away. Hands down to me, it was the most beautiful temple I have visited in India. Everything was immaculate and well organized. Wished it was not closed at the time we visited due to coronavirus.The place is amazing and will recommend everyone love the place it's amazing and added to my memories ","name","Yamini Negi"],s,s),P.ay(["img","assets/cm4.jpeg","comment","Place is very beautiful, must visit once. Very calm and peace place. Laser show and exhibition is the best part.Before coming here, it is best to learn of the history behind it. Because after you do, and when you arrive..everything seems surreal. Sacrifices made calls upon faith. cubilia Curae","name","Ayushi Tyagi"],s,s)]})
 t($,"acv","a0g",function(){return P.a0X(4294769919)})
 t($,"acs","a4P",function(){return C.c1.h(0,400)})
 t($,"acu","a0f",function(){return P.a0X(4294769919)})
