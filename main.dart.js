@@ -53109,7 +53109,7 @@ $.aO=1
 $.a4d=function(){var t=u.N,s=u.K
 return[P.ay(["name","Drinks","icon",C.xg,"items",5],t,s),P.ay(["name","Miscellaneous","icon",C.xf,"items",20],t,s),P.ay(["name","Desert","icon",C.xd,"items",9],t,s),P.ay(["name","Fast Food","icon",C.xc,"items",5],t,s),P.ay(["name","Meals","icon",C.xe,"items",15],t,s)]}()
 $.et=function(){var t=u.z
-return H.b([P.ay(["img","assets/hotel3.jpg","name","Fruit Salad"],t,t),P.ay(["img","assets/hotel4.jpg","name","Fruit Salad"],t,t),P.ay(["img","assets/hotel6.jpg","name","Hamburger"],t,t),P.ay(["img","assets/hotel7.jpg","name","Fruit Salad"],t,t),P.ay(["img","assets/hotel9.jpg","name","Hamburger"],t,t),P.ay(["img","assets/hotel11.jpg","name","Steak"],t,t)],u.vp)}()
+return H.b([P.ay(["img","assets/hotel3.jpg","name","Hotel Milan"],t,t),P.ay(["img","assets/hotel4.jpg","name","Hotel Sultan"],t,t),P.ay(["img","assets/hotel6.jpg","name","Paradise Hotel"],t,t),P.ay(["img","assets/hotel7.jpg","name","Never Say Never Motel"],t,t),P.ay(["img","assets/hotel9.jpg","name","Quick Bite Hotels"],t,t),P.ay(["img","assets/hotel11.jpg","name","Kick Me Nice"],t,t)],u.vp)}()
 $.mW=null})();(function lazyInitializers(){var t=hunkHelpers.lazy
 t($,"adL","a5y",function(){return H.a2P(0,0,1)})
 t($,"ad9","a58",function(){return J.ad($.aZ.h(0,"PaintStyle"),"Stroke")})
