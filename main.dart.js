@@ -53271,7 +53271,7 @@ return new N.GK(H.b(q,u.s),0,new N.Mi(H.b([],u.Q)),r,P.v(s,H.ar("mT<El>")),P.v(s
 t($,"aes","a5V",function(){return new D.Oc($.a5U())})
 t($,"aen","a5U",function(){return new D.F_(P.v(u.N,H.ar("am<bj>(bj)")))})
 t($,"aed","a0r",function(){var s="Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",r=u.N
-return[P.ay(["img","assets/cm1.jpeg","comment","Hello World","name","Jane Doe"],r,r),P.ay(["img","assets/cm2.jpeg","comment",s,"name","Jane Joe"],r,r),P.ay(["img","assets/cm3.jpeg","comment",s,"name","Mary Jane"],r,r),P.ay(["img","assets/cm4.jpeg","comment",s,"name","Jane Jones"],r,r)]})
+return[P.ay(["img","assets/cm1.jpeg","comment","Hello World","name","Jane Doe"],r,r),P.ay(["img","assets/cm2.jpeg","comment","The food is really delicious","name","Jane Joe"],r,r),P.ay(["img","assets/cm3.jpeg","comment",s,"name","Mary Jane"],r,r),P.ay(["img","assets/cm4.jpeg","comment",s,"name","Jane Jones"],r,r)]})
 t($,"acv","a0g",function(){return P.a0X(4294769919)})
 t($,"acs","a4P",function(){return C.c1.h(0,400)})
 t($,"acu","a0f",function(){return P.a0X(4294769919)})
