@@ -7,14 +7,12 @@ import 'package:rovers_guide/util/foods.dart';
 import 'package:rovers_guide/util/categories.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
-
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
 }
 
-class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
-
+class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home> {
   List<T> map<T>(List list, Function handler) {
     List<T> result = [];
     for (var i = 0; i < list.length; i++) {
@@ -26,14 +24,12 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
 
   int _current = 0;
 
-
   @override
   Widget build(BuildContext context) {
     super.build(context);
     return Scaffold(
-
       body: Padding(
-        padding: EdgeInsets.fromLTRB(10.0,0,10.0,0),
+        padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
         child: ListView(
           children: <Widget>[
             Row(
@@ -46,7 +42,6 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                     fontWeight: FontWeight.w800,
                   ),
                 ),
-
                 FlatButton(
                   child: Text(
                     "View More",
@@ -56,10 +51,10 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                       color: Theme.of(context).accentColor,
                     ),
                   ),
-                  onPressed: (){
+                  onPressed: () {
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (BuildContext context){
+                        builder: (BuildContext context) {
                           return DishesScreen();
                         },
                       ),
@@ -74,11 +69,11 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
             //Slider Here
 
             CarouselSlider(
-              height: MediaQuery.of(context).size.height/2.4,
+              height: MediaQuery.of(context).size.height / 2.4,
               items: map<Widget>(
                 foods,
-                    (index, i){
-                      Map food = foods[index];
+                (index, i) {
+                  Map food = foods[index];
                   return SliderItem(
                     img: food['img'],
                     isFav: false,
@@ -114,7 +109,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 shrinkWrap: true,
-                itemCount: categories == null?0:categories.length,
+                itemCount: categories == null ? 0 : categories.length,
                 itemBuilder: (BuildContext context, int index) {
                   Map cat = categories[index];
                   return HomeCategory(
@@ -139,7 +134,6 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                     fontWeight: FontWeight.w800,
                   ),
                 ),
-
                 FlatButton(
                   child: Text(
                     "View More",
@@ -149,7 +143,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                       color: Theme.of(context).accentColor,
                     ),
                   ),
-                  onPressed: (){},
+                  onPressed: () {},
                 ),
               ],
             ),
@@ -164,7 +158,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                 childAspectRatio: MediaQuery.of(context).size.width /
                     (MediaQuery.of(context).size.height / 1.25),
               ),
-              itemCount: foods == null ? 0 :foods.length,
+              itemCount: foods == null ? 0 : foods.length,
               itemBuilder: (BuildContext context, int index) {
 //                Food food = Food.fromJson(foods[index]);
                 Map food = foods[index];

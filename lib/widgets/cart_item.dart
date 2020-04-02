@@ -3,7 +3,6 @@ import 'package:rovers_guide/screens/details.dart';
 import 'package:rovers_guide/util/const.dart';
 import 'package:rovers_guide/widgets/smooth_star_rating.dart';
 
-
 class CartItem extends StatelessWidget {
   final String name;
   final String img;
@@ -11,24 +10,23 @@ class CartItem extends StatelessWidget {
   final double rating;
   final int raters;
 
-
-  CartItem({
-    Key key,
-    @required this.name,
-    @required this.img,
-    @required this.isFav,
-    @required this.rating,
-    @required this.raters})
-      :super(key: key);
+  CartItem(
+      {Key key,
+      @required this.name,
+      @required this.img,
+      @required this.isFav,
+      @required this.rating,
+      @required this.raters})
+      : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.fromLTRB(0, 4, 0, 4),
       child: InkWell(
-        onTap: (){
+        onTap: () {
           Navigator.of(context).push(
             MaterialPageRoute(
-              builder: (BuildContext context){
+              builder: (BuildContext context) {
                 return ProductDetails();
               },
             ),
@@ -39,8 +37,8 @@ class CartItem extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 0.0, right: 10.0),
               child: Container(
-                height: MediaQuery.of(context).size.width/3.5,
-                width: MediaQuery.of(context).size.width/3,
+                height: MediaQuery.of(context).size.width / 3.5,
+                width: MediaQuery.of(context).size.width / 3,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.asset(
@@ -92,7 +90,6 @@ class CartItem extends StatelessWidget {
                       ),
                     ),
                     SizedBox(width: 10.0),
-
                     Text(
                       r"$90",
                       style: TextStyle(
@@ -101,12 +98,9 @@ class CartItem extends StatelessWidget {
                         color: Theme.of(context).accentColor,
                       ),
                     ),
-
                   ],
                 ),
-
                 SizedBox(height: 10.0),
-
                 Text(
                   "Quantity: 1",
                   style: TextStyle(
@@ -114,10 +108,7 @@ class CartItem extends StatelessWidget {
                     fontWeight: FontWeight.w300,
                   ),
                 ),
-
-
               ],
-
             ),
           ],
         ),

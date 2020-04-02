@@ -4,22 +4,20 @@ import 'package:flutter/services.dart';
 import 'package:rovers_guide/screens/join.dart';
 import 'package:rovers_guide/util/const.dart';
 
-
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
   startTimeout() {
-    return  Timer(Duration(seconds: 6), changeScreen);
+    return Timer(Duration(seconds: 6), changeScreen);
   }
 
-  changeScreen() async{
+  changeScreen() async {
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (BuildContext context){
+        builder: (BuildContext context) {
           return JoinApp();
         },
       ),
@@ -32,7 +30,6 @@ class _SplashScreenState extends State<SplashScreen> {
     SystemChrome.setEnabledSystemUIOverlays([]);
     startTimeout();
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -50,9 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 size: 150.0,
                 color: Theme.of(context).accentColor,
               ),
-
               SizedBox(width: 40.0),
-
               Container(
                 alignment: Alignment.center,
                 margin: EdgeInsets.only(
@@ -87,6 +82,4 @@ class _SplashScreenState extends State<SplashScreen> {
       ),
     );
   }
-
-
 }

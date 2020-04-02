@@ -12,7 +12,6 @@ class CategoriesScreen extends StatefulWidget {
 }
 
 class _CategoriesScreenState extends State<CategoriesScreen> {
-
   String catie = "Drinks";
   @override
   Widget build(BuildContext context) {
@@ -23,7 +22,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
           icon: Icon(
             Icons.keyboard_backspace,
           ),
-          onPressed: ()=>Navigator.pop(context),
+          onPressed: () => Navigator.pop(context),
         ),
         centerTitle: true,
         title: Text(
@@ -36,10 +35,10 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
               icon: Icons.notifications,
               size: 22.0,
             ),
-            onPressed: (){
+            onPressed: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (BuildContext context){
+                  builder: (BuildContext context) {
                     return Notifications();
                   },
                 ),
@@ -48,9 +47,8 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
           ),
         ],
       ),
-
       body: Padding(
-        padding: EdgeInsets.fromLTRB(10.0,0,10.0,0),
+        padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
         child: ListView(
           children: <Widget>[
             SizedBox(height: 10.0),
@@ -59,7 +57,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 shrinkWrap: true,
-                itemCount: categories == null?0:categories.length,
+                itemCount: categories == null ? 0 : categories.length,
                 itemBuilder: (BuildContext context, int index) {
                   Map cat = categories[index];
                   return HomeCategory(
@@ -67,16 +65,16 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                     title: cat['name'],
                     items: cat['items'].toString(),
                     isHome: false,
-                    tap: (){
-                      setState((){catie = "${cat['name']}";});
+                    tap: () {
+                      setState(() {
+                        catie = "${cat['name']}";
+                      });
                     },
                   );
                 },
               ),
             ),
-
             SizedBox(height: 20.0),
-
             Text(
               "$catie",
               style: TextStyle(
@@ -86,7 +84,6 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
             ),
             Divider(),
             SizedBox(height: 10.0),
-
             GridView.builder(
               shrinkWrap: true,
               primary: false,
@@ -96,7 +93,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                 childAspectRatio: MediaQuery.of(context).size.width /
                     (MediaQuery.of(context).size.height / 1.25),
               ),
-              itemCount: foods == null ? 0 :foods.length,
+              itemCount: foods == null ? 0 : foods.length,
               itemBuilder: (BuildContext context, int index) {
                 Map food = foods[index];
                 return GridProduct(
@@ -108,7 +105,6 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                 );
               },
             ),
-
           ],
         ),
       ),

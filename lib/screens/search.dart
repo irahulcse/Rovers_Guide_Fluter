@@ -3,24 +3,23 @@ import 'package:rovers_guide/util/const.dart';
 import 'package:rovers_guide/util/foods.dart';
 import 'package:rovers_guide/widgets/smooth_star_rating.dart';
 
-
 class SearchScreen extends StatefulWidget {
   @override
   _SearchScreenState createState() => _SearchScreenState();
 }
 
-class _SearchScreenState extends State<SearchScreen> with AutomaticKeepAliveClientMixin<SearchScreen>{
+class _SearchScreenState extends State<SearchScreen>
+    with AutomaticKeepAliveClientMixin<SearchScreen> {
   final TextEditingController _searchControl = new TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     super.build(context);
     return Padding(
-      padding: EdgeInsets.fromLTRB(10.0,0,10.0,0),
+      padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
       child: ListView(
         children: <Widget>[
           SizedBox(height: 10.0),
-
           Card(
             elevation: 6.0,
             child: Container(
@@ -39,10 +38,14 @@ class _SearchScreenState extends State<SearchScreen> with AutomaticKeepAliveClie
                   contentPadding: EdgeInsets.all(10.0),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(5.0),
-                    borderSide: BorderSide(color: Colors.white,),
+                    borderSide: BorderSide(
+                      color: Colors.white,
+                    ),
                   ),
                   enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.white,),
+                    borderSide: BorderSide(
+                      color: Colors.white,
+                    ),
                     borderRadius: BorderRadius.circular(5.0),
                   ),
                   hintText: "Search..",
@@ -60,9 +63,7 @@ class _SearchScreenState extends State<SearchScreen> with AutomaticKeepAliveClie
               ),
             ),
           ),
-
           SizedBox(height: 5.0),
-
           Padding(
             padding: EdgeInsets.all(20.0),
             child: Text(
@@ -73,12 +74,11 @@ class _SearchScreenState extends State<SearchScreen> with AutomaticKeepAliveClie
               ),
             ),
           ),
-
           ListView.builder(
             shrinkWrap: true,
             primary: false,
             physics: NeverScrollableScrollPhysics(),
-            itemCount: foods == null ? 0 :foods.length,
+            itemCount: foods == null ? 0 : foods.length,
             itemBuilder: (BuildContext context, int index) {
               Map food = foods[index];
               return ListTile(
@@ -96,7 +96,7 @@ class _SearchScreenState extends State<SearchScreen> with AutomaticKeepAliveClie
                   ),
                 ),
                 trailing: Text(r"$10"),
-                subtitle:  Row(
+                subtitle: Row(
                   children: <Widget>[
                     SmoothStarRating(
                       starCount: 1,
@@ -115,11 +115,10 @@ class _SearchScreenState extends State<SearchScreen> with AutomaticKeepAliveClie
                     ),
                   ],
                 ),
-                onTap: (){},
+                onTap: () {},
               );
             },
           ),
-
           SizedBox(height: 30),
         ],
       ),

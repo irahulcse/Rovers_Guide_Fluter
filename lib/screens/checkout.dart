@@ -9,14 +9,11 @@ class Checkout extends StatefulWidget {
 }
 
 class _CheckoutState extends State<Checkout> {
-
   final TextEditingController _couponlControl = new TextEditingController();
-
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
@@ -39,13 +36,12 @@ class _CheckoutState extends State<Checkout> {
               Icons.clear,
               color: Theme.of(context).accentColor,
             ),
-            onPressed: ()=>Navigator.pop(context),
+            onPressed: () => Navigator.pop(context),
           ),
         ],
       ),
-
       body: Padding(
-        padding: EdgeInsets.fromLTRB(10.0,0,10.0,130),
+        padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 130),
         child: ListView(
           children: <Widget>[
             SizedBox(height: 10.0),
@@ -59,9 +55,8 @@ class _CheckoutState extends State<Checkout> {
                     fontWeight: FontWeight.w400,
                   ),
                 ),
-
                 IconButton(
-                  onPressed: (){},
+                  onPressed: () {},
                   icon: Icon(
                     Icons.edit,
                   ),
@@ -79,9 +74,7 @@ class _CheckoutState extends State<Checkout> {
               ),
               subtitle: Text("1278 Loving Acres Road Kansas City, MO 64110"),
             ),
-
             SizedBox(height: 10.0),
-
             Text(
               "Payment Method",
               style: TextStyle(
@@ -89,7 +82,6 @@ class _CheckoutState extends State<Checkout> {
                 fontWeight: FontWeight.w400,
               ),
             ),
-
             Card(
               elevation: 4.0,
               child: ListTile(
@@ -107,16 +99,14 @@ class _CheckoutState extends State<Checkout> {
                   color: Theme.of(context).accentColor,
                 ),
                 trailing: IconButton(
-                  onPressed: (){},
+                  onPressed: () {},
                   icon: Icon(
                     Icons.keyboard_arrow_down,
                   ),
                 ),
               ),
             ),
-
             SizedBox(height: 20.0),
-
             Text(
               "Items",
               style: TextStyle(
@@ -124,11 +114,10 @@ class _CheckoutState extends State<Checkout> {
                 fontWeight: FontWeight.w400,
               ),
             ),
-
             ListView.builder(
               primary: false,
               shrinkWrap: true,
-              itemCount: foods == null ? 0 :foods.length,
+              itemCount: foods == null ? 0 : foods.length,
               itemBuilder: (BuildContext context, int index) {
 //                Food food = Food.fromJson(foods[index]);
                 Map food = foods[index];
@@ -146,18 +135,15 @@ class _CheckoutState extends State<Checkout> {
           ],
         ),
       ),
-
       bottomSheet: Card(
         elevation: 4.0,
         child: Container(
-
           child: ListView(
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
               Padding(
                 padding: EdgeInsets.all(10),
                 child: Container(
-
                   decoration: BoxDecoration(
                     color: Colors.grey[200],
                     borderRadius: BorderRadius.all(
@@ -173,10 +159,14 @@ class _CheckoutState extends State<Checkout> {
                       contentPadding: EdgeInsets.all(10.0),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5.0),
-                        borderSide: BorderSide(color: Colors.grey[200],),
+                        borderSide: BorderSide(
+                          color: Colors.grey[200],
+                        ),
                       ),
                       enabledBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey[200],),
+                        borderSide: BorderSide(
+                          color: Colors.grey[200],
+                        ),
                         borderRadius: BorderRadius.circular(5.0),
                       ),
                       hintText: "Coupon Code",
@@ -194,13 +184,11 @@ class _CheckoutState extends State<Checkout> {
                   ),
                 ),
               ),
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-
                   Padding(
-                    padding: EdgeInsets.fromLTRB(10,5,5,5),
+                    padding: EdgeInsets.fromLTRB(10, 5, 5, 5),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
@@ -211,7 +199,6 @@ class _CheckoutState extends State<Checkout> {
                             fontWeight: FontWeight.w400,
                           ),
                         ),
-
                         Text(
                           r"$ 212",
                           style: TextStyle(
@@ -220,7 +207,6 @@ class _CheckoutState extends State<Checkout> {
                             color: Theme.of(context).accentColor,
                           ),
                         ),
-
                         Text(
                           "Delivery charges included",
                           style: TextStyle(
@@ -231,9 +217,8 @@ class _CheckoutState extends State<Checkout> {
                       ],
                     ),
                   ),
-
                   Container(
-                    padding: EdgeInsets.fromLTRB(5,5,10,5),
+                    padding: EdgeInsets.fromLTRB(5, 5, 10, 5),
                     width: 150.0,
                     height: 50.0,
                     child: FlatButton(
@@ -244,18 +229,13 @@ class _CheckoutState extends State<Checkout> {
                           color: Colors.white,
                         ),
                       ),
-                      onPressed: (){},
+                      onPressed: () {},
                     ),
                   ),
-
                 ],
               ),
-
-
-
             ],
           ),
-
           height: 130,
         ),
       ),

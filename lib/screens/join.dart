@@ -5,16 +5,12 @@ import 'package:flutter/services.dart';
 import 'package:rovers_guide/util/const.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-
 class JoinApp extends StatefulWidget {
   @override
   _JoinAppState createState() => _JoinAppState();
 }
 
-
-
-class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
-
+class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin {
   TabController _tabController;
 
   @override
@@ -23,7 +19,6 @@ class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
     _tabController = TabController(vsync: this, initialIndex: 1, length: 2);
     SystemChrome.setEnabledSystemUIOverlays(SystemUiOverlay.values);
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +29,7 @@ class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
           icon: Icon(
             Icons.keyboard_backspace,
           ),
-          onPressed: ()=>Navigator.pop(context),
+          onPressed: () => Navigator.pop(context),
         ),
         bottom: TabBar(
           controller: _tabController,
@@ -59,7 +54,6 @@ class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
           ],
         ),
       ),
-
       body: TabBarView(
         controller: _tabController,
         children: <Widget>[
@@ -67,8 +61,6 @@ class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
           RegisterScreen(),
         ],
       ),
-
-
     );
   }
 }

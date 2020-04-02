@@ -10,13 +10,11 @@ class Profile extends StatefulWidget {
 }
 
 class _ProfileState extends State<Profile> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.fromLTRB(10.0,0,10.0,0),
-
+        padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
         child: ListView(
           children: <Widget>[
             Row(
@@ -31,7 +29,6 @@ class _ProfileState extends State<Profile> {
                     height: 100.0,
                   ),
                 ),
-
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -48,9 +45,7 @@ class _ProfileState extends State<Profile> {
                           ),
                         ],
                       ),
-
                       SizedBox(height: 5.0),
-
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
@@ -63,22 +58,22 @@ class _ProfileState extends State<Profile> {
                           ),
                         ],
                       ),
-
                       SizedBox(height: 20.0),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           InkWell(
-                            onTap: (){
+                            onTap: () {
                               Navigator.of(context).push(
                                 MaterialPageRoute(
-                                  builder: (BuildContext context){
+                                  builder: (BuildContext context) {
                                     return SplashScreen();
                                   },
                                 ),
                               );
                             },
-                            child: Text("Logout",
+                            child: Text(
+                              "Logout",
                               style: TextStyle(
                                 fontSize: 13.0,
                                 fontWeight: FontWeight.w400,
@@ -89,17 +84,14 @@ class _ProfileState extends State<Profile> {
                           ),
                         ],
                       ),
-
                     ],
                   ),
                   flex: 3,
                 ),
               ],
             ),
-
             Divider(),
             Container(height: 15.0),
-
             Padding(
               padding: EdgeInsets.all(5.0),
               child: Text(
@@ -110,7 +102,6 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
             ),
-
             ListTile(
               title: Text(
                 "Full Name",
@@ -119,22 +110,18 @@ class _ProfileState extends State<Profile> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-
               subtitle: Text(
                 "Jane Mary Doe",
               ),
-
               trailing: IconButton(
                 icon: Icon(
                   Icons.edit,
                   size: 20.0,
                 ),
-                onPressed: (){
-                },
+                onPressed: () {},
                 tooltip: "Edit",
               ),
             ),
-
             ListTile(
               title: Text(
                 "Email",
@@ -143,12 +130,10 @@ class _ProfileState extends State<Profile> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-
               subtitle: Text(
                 "jane@doefamily.com",
               ),
             ),
-
             ListTile(
               title: Text(
                 "Phone",
@@ -157,12 +142,10 @@ class _ProfileState extends State<Profile> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-
               subtitle: Text(
                 "+1 816-926-6241",
               ),
             ),
-
             ListTile(
               title: Text(
                 "Address",
@@ -171,12 +154,10 @@ class _ProfileState extends State<Profile> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-
               subtitle: Text(
                 "1278 Loving Acres RoadKansas City, MO 64110",
               ),
             ),
-
             ListTile(
               title: Text(
                 "Gender",
@@ -185,12 +166,10 @@ class _ProfileState extends State<Profile> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-
               subtitle: Text(
                 "Female",
               ),
             ),
-
             ListTile(
               title: Text(
                 "Date of Birth",
@@ -199,12 +178,10 @@ class _ProfileState extends State<Profile> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-
               subtitle: Text(
                 "April 9, 1995",
               ),
             ),
-
             ListTile(
               title: Text(
                 "Dark Theme",
@@ -213,12 +190,12 @@ class _ProfileState extends State<Profile> {
                   fontWeight: FontWeight.w700,
                 ),
               ),
-
               trailing: Switch(
-                value: Provider.of<AppProvider>(context).theme == Constants.lightTheme
+                value: Provider.of<AppProvider>(context).theme ==
+                        Constants.lightTheme
                     ? false
                     : true,
-                onChanged: (v) async{
+                onChanged: (v) async {
                   if (v) {
                     Provider.of<AppProvider>(context, listen: false)
                         .setTheme(Constants.darkTheme, "dark");

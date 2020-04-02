@@ -3,9 +3,7 @@ class Food {
   String name;
   String rating;
 
-  Food(
-      {this.img,
-        this.name});
+  Food({this.img, this.name});
 
   Food.fromJson(Map<String, dynamic> json) {
     name = json['name'];

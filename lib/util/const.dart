@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-class Constants{
 
+class Constants {
   static String appName = "Rover's Guide";
-  static String appName2= "One Stop Solution For Travellers";
+  static String appName2 = "One Stop Solution For Travellers";
 
   //Colors for theme
 //  Color(0xfffcfcff);
@@ -17,7 +17,7 @@ class Constants{
   static ThemeData lightTheme = ThemeData(
     backgroundColor: lightBG,
     primaryColor: lightPrimary,
-    accentColor:  lightAccent,
+    accentColor: lightAccent,
     cursorColor: lightAccent,
     scaffoldBackgroundColor: lightBG,
     appBarTheme: AppBarTheme(
@@ -54,6 +54,4 @@ class Constants{
 //      ),
     ),
   );
-
-
 }

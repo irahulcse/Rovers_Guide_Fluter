@@ -7,13 +7,14 @@ class FavoriteScreen extends StatefulWidget {
   _FavoriteScreenState createState() => _FavoriteScreenState();
 }
 
-class _FavoriteScreenState extends State<FavoriteScreen> with AutomaticKeepAliveClientMixin<FavoriteScreen>{
+class _FavoriteScreenState extends State<FavoriteScreen>
+    with AutomaticKeepAliveClientMixin<FavoriteScreen> {
   @override
   Widget build(BuildContext context) {
     super.build(context);
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.fromLTRB(10.0,0,10.0,0),
+        padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
         child: ListView(
           children: <Widget>[
             SizedBox(height: 10.0),
@@ -25,7 +26,6 @@ class _FavoriteScreenState extends State<FavoriteScreen> with AutomaticKeepAlive
               ),
             ),
             SizedBox(height: 10.0),
-
             GridView.builder(
               shrinkWrap: true,
               primary: false,
@@ -35,7 +35,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> with AutomaticKeepAlive
                 childAspectRatio: MediaQuery.of(context).size.width /
                     (MediaQuery.of(context).size.height / 1.25),
               ),
-              itemCount: foods == null ? 0 :foods.length,
+              itemCount: foods == null ? 0 : foods.length,
               itemBuilder: (BuildContext context, int index) {
 //                Food food = Food.fromJson(foods[index]);
                 Map food = foods[index];
@@ -50,7 +50,6 @@ class _FavoriteScreenState extends State<FavoriteScreen> with AutomaticKeepAlive
                 );
               },
             ),
-
             SizedBox(height: 30),
           ],
         ),

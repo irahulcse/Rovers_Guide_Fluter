@@ -15,7 +15,7 @@ class _NotificationsState extends State<Notifications> {
           icon: Icon(
             Icons.keyboard_backspace,
           ),
-          onPressed: ()=>Navigator.pop(context),
+          onPressed: () => Navigator.pop(context),
         ),
         centerTitle: true,
         title: Text(
@@ -23,9 +23,8 @@ class _NotificationsState extends State<Notifications> {
         ),
         elevation: 0.0,
       ),
-
       body: Padding(
-        padding: EdgeInsets.fromLTRB(10.0,0,10.0,0),
+        padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
         child: ListView(
           children: <Widget>[
             ListTile(
@@ -37,7 +36,7 @@ class _NotificationsState extends State<Notifications> {
                 ),
               ),
               title: Text("Your Order has been delivered successfully"),
-              onTap: (){},
+              onTap: () {},
             ),
             Divider(),
             ListTile(
@@ -49,7 +48,7 @@ class _NotificationsState extends State<Notifications> {
                 ),
               ),
               title: Text("Error processing your order"),
-              onTap: (){},
+              onTap: () {},
             ),
             Divider(),
             ListTile(
@@ -60,8 +59,9 @@ class _NotificationsState extends State<Notifications> {
                   color: Colors.white,
                 ),
               ),
-              title: Text("You order has been processed and will be delivered shortly"),
-              onTap: (){},
+              title: Text(
+                  "You order has been processed and will be delivered shortly"),
+              onTap: () {},
             ),
             Divider(),
             ListTile(
@@ -73,7 +73,7 @@ class _NotificationsState extends State<Notifications> {
                 ),
               ),
               title: Text("Please Verify your email address"),
-              onTap: (){},
+              onTap: () {},
             ),
           ],
         ),
