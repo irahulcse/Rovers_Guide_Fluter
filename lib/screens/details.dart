@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:rovers_guide/screens/notifications.dart';
 import 'package:rovers_guide\/util/comments.dart';
@@ -12,6 +14,7 @@ class ProductDetails extends StatefulWidget {
 }
 
 class _ProductDetailsState extends State<ProductDetails> {
+  int x=Random().nextInt(5);
   bool isFav = false;
   @override
   Widget build(BuildContext context) {
@@ -60,7 +63,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
-                      "${foods[1]['img']}",
+                      "${foods[x]['img']}",
                       fit: BoxFit.cover,
                     ),
                   ),
