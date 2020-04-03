@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:rovers_guide/screens/notifications.dart';
 import 'package:rovers_guide/util/foods.dart';
@@ -10,6 +12,7 @@ class DishesScreen extends StatefulWidget {
 }
 
 class _DishesScreenState extends State<DishesScreen> {
+  int x = Random().nextInt(5);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +26,7 @@ class _DishesScreenState extends State<DishesScreen> {
         ),
         centerTitle: true,
         title: Text(
-          "Dishes",
+          "Amritsar: City of Gold",
         ),
         elevation: 0.0,
         actions: <Widget>[
@@ -49,7 +52,7 @@ class _DishesScreenState extends State<DishesScreen> {
         child: ListView(
           children: <Widget>[
             Text(
-              "Chinese",
+              "Harmandir Sahab",
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w800,
@@ -67,8 +70,8 @@ class _DishesScreenState extends State<DishesScreen> {
                     (MediaQuery.of(context).size.height / 1.25),
               ),
               itemCount: 4,
-              itemBuilder: (BuildContext context, int index) {
-                Map food = foods[index];
+              itemBuilder: (BuildContext context, int x) {
+                Map food = foods[x];
                 return GridProduct(
                   img: food['img'],
                   isFav: false,
@@ -80,7 +83,7 @@ class _DishesScreenState extends State<DishesScreen> {
             ),
             SizedBox(height: 20.0),
             Text(
-              "Italian",
+              "Jallianwala Bagh",
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w800,
@@ -98,8 +101,8 @@ class _DishesScreenState extends State<DishesScreen> {
                     (MediaQuery.of(context).size.height / 1.25),
               ),
               itemCount: 4,
-              itemBuilder: (BuildContext context, int index) {
-                Map food = foods[index];
+              itemBuilder: (BuildContext context, int x) {
+                Map food = foods[x];
                 return GridProduct(
                   img: food['img'],
                   isFav: false,
@@ -111,7 +114,7 @@ class _DishesScreenState extends State<DishesScreen> {
             ),
             SizedBox(height: 20.0),
             Text(
-              "African",
+              "Maharaja Ranjit Singh Statue",
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w800,
@@ -129,8 +132,8 @@ class _DishesScreenState extends State<DishesScreen> {
                     (MediaQuery.of(context).size.height / 1.25),
               ),
               itemCount: 4,
-              itemBuilder: (BuildContext context, int index) {
-                Map food = foods[index];
+              itemBuilder: (BuildContext context, int x) {
+                Map food = foods[x];
                 return GridProduct(
                   img: food['img'],
                   isFav: false,

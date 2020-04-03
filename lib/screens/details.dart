@@ -90,19 +90,21 @@ class _ProductDetailsState extends State<ProductDetails> {
             ),
             SizedBox(height: 10.0),
             Text(
-              "${foods[1]['name']}",
+              "${foods[x]['name']}",
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w800,
               ),
               maxLines: 2,
             ),
+
+            ///dekht hain kya karna
             Padding(
               padding: EdgeInsets.only(bottom: 5.0, top: 2.0),
               child: Row(
                 children: <Widget>[
                   SmoothStarRating(
-                    starCount: 5,
+                    starCount: 4,
                     color: Constants.ratingBG,
                     allowHalfRating: true,
                     rating: 5.0,
@@ -110,7 +112,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                   ),
                   SizedBox(width: 10.0),
                   Text(
-                    "5.0 (23 Reviews)",
+                    "${foods[x]['reviews']}",
                     style: TextStyle(
                       fontSize: 11.0,
                     ),
@@ -123,7 +125,7 @@ class _ProductDetailsState extends State<ProductDetails> {
               child: Row(
                 children: <Widget>[
                   Text(
-                    "20 Pieces",
+                    "${foods[x]['pieces']}",
                     style: TextStyle(
                       fontSize: 11.0,
                       fontWeight: FontWeight.w300,
@@ -152,17 +154,7 @@ class _ProductDetailsState extends State<ProductDetails> {
             ),
             SizedBox(height: 10.0),
             Text(
-              "Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor "
-              "sit amet, consectetur adipiscing elit. Curabitur aliquet quam "
-              "id dui posuere blandit. Pellentesque in ipsum id orci porta "
-              "dapibus. Vestibulum ante ipsum primis in faucibus orci luctus "
-              "et ultrices posuere cubilia Curae; Donec velit neque, auctor "
-              "sit amet aliquam vel, ullamcorper sit amet ligula. Donec"
-              " rutrum congue leo eget malesuada. Vivamus magna justo,"
-              " lacinia eget consectetur sed, convallis at tellus."
-              " Vivamus suscipit tortor eget felis porttitor volutpat."
-              " Donec rutrum congue leo eget malesuada."
-              " Pellentesque in ipsum id orci porta dapibus.",
+              "${foods[x]['description']}",
               style: TextStyle(
                 fontSize: 13,
                 fontWeight: FontWeight.w300,

@@ -23,7 +23,7 @@ class _ProfileState extends State<Profile> {
                 Padding(
                   padding: EdgeInsets.only(left: 10.0, right: 10.0),
                   child: Image.asset(
-                    "assets/cm4.jpeg",
+                    "assets/subhu.png",
                     fit: BoxFit.cover,
                     width: 100.0,
                     height: 100.0,
@@ -37,7 +37,7 @@ class _ProfileState extends State<Profile> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            "Sonal Ranjan",
+                            "Subhashree Behenra",
                             style: TextStyle(
                               fontSize: 20.0,
                               fontWeight: FontWeight.bold,
@@ -50,7 +50,7 @@ class _ProfileState extends State<Profile> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            "sonalranjan@gmail.com",
+                            "mainsubhuhoonkoishaadikarlo@gmail.com",
                             style: TextStyle(
                               fontSize: 14.0,
                               fontWeight: FontWeight.bold,
@@ -111,7 +111,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "Sonal Ranjan Pandey",
+                "Subhashree",
               ),
               trailing: IconButton(
                 icon: Icon(
@@ -131,7 +131,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "sonalranjanpandey@gmail.com",
+                "mainsubhuhoonkoishaadikarlo@gmail.com",
               ),
             ),
             ListTile(
