@@ -47926,21 +47926,21 @@ $S:0}
 U.rj.prototype={
 a7:function(){return new U.F6(C.n)}}
 U.F6.prototype={
-E:function(a){var t,s,r,q,p,o,n,m=null,l="jane@doefamily.com",k=u.p,j=T.ce(H.b([new T.aJ(new V.L(10,0,10,0),U.yK("assets/cm4.jpeg",C.cf,100,100),m),new T.pz(3,C.hU,T.lu(H.b([T.ce(H.b([L.R("Jane Doe",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,20,m,C.ad,m,m,!0,m,m,m,m,m,m),m)],k),C.Q,C.b7,C.G),new T.Y(m,5,m,m),T.ce(H.b([L.R(l,m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,14,m,C.ad,m,m,!0,m,m,m,m,m,m),m)],k),C.Q,C.b7,C.G),new T.Y(m,20,m,m),T.ce(H.b([R.jW(!1,!0,L.R("Logout",m,C.bb,m,m,A.T(m,m,K.J(a).x,m,m,m,m,m,m,m,m,13,m,C.B,m,m,!0,m,m,m,m,m,m),m),m,!0,m,m,m,m,m,m,m,m,new U.W7(a),m)],k),C.Q,C.b7,C.G)],k),C.cj,C.a7,C.G),m)],k),C.Q,C.a7,C.G),i=Z.fV(m),h=M.aW(m,m,m,m,m,m,15,m,m,m,m),g=L.R("Account Information".toUpperCase(),m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,16,m,C.ad,m,m,!0,m,m,m,m,m,m),m),f=L.R("Full Name",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
-f=Q.dt(m,m,L.R("Jane Mary Doe",m,m,m,m,m,m),f,B.cH(m,L.aX(C.pt,m,20),new U.W8(),"Edit"))
+E:function(a){var t,s,r,q,p,o,n,m=null,l=u.p,k=T.ce(H.b([new T.aJ(new V.L(10,0,10,0),U.yK("assets/cm4.jpeg",C.cf,100,100),m),new T.pz(3,C.hU,T.lu(H.b([T.ce(H.b([L.R("Sonal Ranjan",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,20,m,C.ad,m,m,!0,m,m,m,m,m,m),m)],l),C.Q,C.b7,C.G),new T.Y(m,5,m,m),T.ce(H.b([L.R("sonal_ranjan@gmail.com",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,14,m,C.ad,m,m,!0,m,m,m,m,m,m),m)],l),C.Q,C.b7,C.G),new T.Y(m,20,m,m),T.ce(H.b([R.jW(!1,!0,L.R("Logout",m,C.bb,m,m,A.T(m,m,K.J(a).x,m,m,m,m,m,m,m,m,13,m,C.B,m,m,!0,m,m,m,m,m,m),m),m,!0,m,m,m,m,m,m,m,m,new U.W7(a),m)],l),C.Q,C.b7,C.G)],l),C.cj,C.a7,C.G),m)],l),C.Q,C.a7,C.G),j=Z.fV(m),i=M.aW(m,m,m,m,m,m,15,m,m,m,m),h=L.R("Account Information".toUpperCase(),m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,16,m,C.ad,m,m,!0,m,m,m,m,m,m),m),g=L.R("Full Name",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
+g=Q.dt(m,m,L.R("Jane Mary Doe",m,m,m,m,m,m),g,B.cH(m,L.aX(C.pt,m,20),new U.W8(),"Edit"))
 t=L.R("Email",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
-t=Q.dt(m,m,L.R(l,m,m,m,m,m,m),t,m)
+t=Q.dt(m,m,L.R("jane@doefamily.com",m,m,m,m,m,m),t,m)
 s=L.R("Phone",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
-s=Q.dt(m,m,L.R("+1 816-926-6241",m,m,m,m,m,m),s,m)
+s=Q.dt(m,m,L.R("8146582353",m,m,m,m,m,m),s,m)
 r=L.R("Address",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
-r=Q.dt(m,m,L.R("1278 Loving Acres RoadKansas City, MO 64110",m,m,m,m,m,m),r,m)
+r=Q.dt(m,m,L.R("NH-95, Ludhiana - Chandigarh State Hwy, Punjab 140413",m,m,m,m,m,m),r,m)
 q=L.R("Gender",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
 q=Q.dt(m,m,L.R("Female",m,m,m,m,m,m),q,m)
 p=L.R("Date of Birth",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
-p=Q.dt(m,m,L.R("April 9, 1995",m,m,m,m,m,m),p,m)
+p=Q.dt(m,m,L.R("April 9, 1999",m,m,m,m,m,m),p,m)
 o=L.R("Dark Theme",m,m,m,m,A.T(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
 n=!J.d(Y.Ou(a,!0,u.sl).a,$.Hr())||!1
-return M.f0(m,m,new T.aJ(new V.L(10,0,10,0),B.dR(H.b([j,i,h,new T.aJ(new V.L(5,5,5,5),g,m),f,t,s,r,q,p,Q.dt(m,m,m,o,new N.tl(n,new U.W9(a),K.J(a).x,m))],k),m,m,!1),m),m,m,m,m,m)}}
+return M.f0(m,m,new T.aJ(new V.L(10,0,10,0),B.dR(H.b([k,j,i,new T.aJ(new V.L(5,5,5,5),h,m),g,t,s,r,q,p,Q.dt(m,m,m,o,new N.tl(n,new U.W9(a),K.J(a).x,m))],l),m,m,!1),m),m,m,m,m,m)}}
 U.W7.prototype={
 $0:function(){var t=u.z
 K.cj(this.a).dq(V.dv(new U.W6(),null,t),t)},
