@@ -4,41 +4,47 @@ List<Map> foods = [
     "name": "Hotel Milan",
     "reviews": "5.0 (33 Reviews)",
     "pieces": "23 Pieces",
-    "description": "Sky is Blue" " Drinks are Red" "Hotel3 who are you"
+    "description": "Sky is Blue" " Drinks are Red" "Hotel3 who are you",
+    "prices": "Rs. 1000"
   },
   {
     "img": "assets/hotel4.jpg",
     "name": "Hotel Sultan",
-    "reviews": "5.0 (99 Reviews)",
+    "reviews": "5.0 (99 Reviews)",  
     "pieces": "567 Pieces",
-    "description": "Sky is Blue" " Drinks are Red" "Hotel4 who are you"
+    "description": "Sky is Blue" " Drinks are Red" "Hotel4 who are you",
+    "prices": "Rs. 500"
   },
   {
     "img": "assets/hotel6.jpg",
     "name": "Paradise Hotel",
     "reviews": "5.0 (17 Reviews)",
     "pieces": "101 Pieces",
-    "description": "Sky is Blue" " Drinks are Red" "Hotel6 who are you"
+    "description": "Sky is Blue" " Drinks are Red" "Hotel6 who are you",
+    "prices": "Rs. 1200"
   },
   {
     "img": "assets/hotel7.jpg",
     "name": "Never Say Never Motel",
     "reviews": "5.0 (12 Reviews)",
     "pieces": "65 Pieces",
-    "description": "Sky is Blue" " Drinks are Red" "Hotel7 who are you"
+    "description": "Sky is Blue" " Drinks are Red" "Hotel7 who are you",
+    "prices": "Rs. 1500"
   },
   {
     "img": "assets/hotel9.jpg",
     "name": "Quick Bite Hotels",
     "reviews": "5.0 (18 Reviews)",
     "pieces": "19 Pieces",
-    "description": "Sky is Blue" " Drinks are Red" "Hotel 9 who are you"
+    "description": "Sky is Blue" " Drinks are Red" "Hotel 9 who are you",
+    "prices": "Rs. 700"
   },
   {
     "img": "assets/hotel11.jpg",
     "name": "Kick Me Nice",
     "reviews": "5.0 (12 Reviews)",
     "pieces": "6 Pieces",
-    "description": "Sky is Blue" " Drinks are Red" "Hotel11 who are you"
+    "description": "Sky is Blue" " Drinks are Red" "Hotel11 who are you",
+    "prices": "Rs. 235"
   },
 ];

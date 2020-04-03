@@ -133,7 +133,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                   ),
                   SizedBox(width: 10.0),
                   Text(
-                    r"$90",
+                    "${foods[x]['prices']}",
                     style: TextStyle(
                       fontSize: 14.0,
                       fontWeight: FontWeight.w900,
