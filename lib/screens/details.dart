@@ -15,6 +15,7 @@ class ProductDetails extends StatefulWidget {
 
 class _ProductDetailsState extends State<ProductDetails> {
   int x = Random().nextInt(5);
+  int y=Random().nextInt(5);
   bool isFav = false;
   @override
   Widget build(BuildContext context) {
@@ -104,7 +105,7 @@ class _ProductDetailsState extends State<ProductDetails> {
               child: Row(
                 children: <Widget>[
                   SmoothStarRating(
-                    starCount: 4,
+                    starCount: y,
                     color: Constants.ratingBG,
                     allowHalfRating: true,
                     rating: 5.0,

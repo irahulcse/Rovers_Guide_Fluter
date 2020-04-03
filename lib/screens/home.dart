@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:rovers_guide/screens/dishes.dart';
 import 'package:rovers_guide/widgets/grid_product.dart';
@@ -26,6 +28,10 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home> {
 
   @override
   Widget build(BuildContext context) {
+
+    double stars=Random().nextDouble(5);
+    int r2=Random().nextInt(100);
+    //int stars=Random().nextInt(5);
     super.build(context);
     return Scaffold(
       body: Padding(
@@ -168,8 +174,8 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home> {
                   img: food['img'],
                   isFav: false,
                   name: food['name'],
-                  rating: 5.0,
-                  raters: 23,
+                  rating: stars,
+                  raters: r2,
                 );
               },
             ),
