@@ -131,7 +131,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "jane@doefamily.com",
+                "sonalranjanpandey@gmail.com",
               ),
             ),
             ListTile(
