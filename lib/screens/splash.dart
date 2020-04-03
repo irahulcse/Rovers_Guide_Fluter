@@ -11,7 +11,7 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   startTimeout() {
-    return Timer(Duration(seconds: 6), changeScreen);
+    return Timer(Duration(seconds: 2), changeScreen);
   }
 
   changeScreen() async {
@@ -43,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Icon(
-                Icons.fastfood,
+                Icons.hourglass_full,
                 size: 150.0,
                 color: Theme.of(context).accentColor,
               ),
