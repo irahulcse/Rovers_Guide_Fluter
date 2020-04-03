@@ -50,7 +50,7 @@ class _ProfileState extends State<Profile> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            "sonal_ranjan@gmail.com",
+                            "sonalranjan@gmail.com",
                             style: TextStyle(
                               fontSize: 14.0,
                               fontWeight: FontWeight.bold,
@@ -111,7 +111,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "Jane Mary Doe",
+                "Sonal Ranjan Pandey",
               ),
               trailing: IconButton(
                 icon: Icon(
