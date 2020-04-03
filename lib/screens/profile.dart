@@ -37,7 +37,7 @@ class _ProfileState extends State<Profile> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            "Jane Doe",
+                            "Sonal Ranjan",
                             style: TextStyle(
                               fontSize: 20.0,
                               fontWeight: FontWeight.bold,
@@ -50,7 +50,7 @@ class _ProfileState extends State<Profile> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            "jane@doefamily.com",
+                            "sonal_ranjan@gmail.com",
                             style: TextStyle(
                               fontSize: 14.0,
                               fontWeight: FontWeight.bold,
@@ -143,7 +143,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "+1 816-926-6241",
+                "8146582353",
               ),
             ),
             ListTile(
@@ -155,7 +155,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "1278 Loving Acres RoadKansas City, MO 64110",
+                "NH-95, Ludhiana - Chandigarh State Hwy, Punjab 140413",
               ),
             ),
             ListTile(
@@ -179,7 +179,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "April 9, 1995",
+                "April 9, 1999",
               ),
             ),
             ListTile(

@@ -14,7 +14,7 @@ class ProductDetails extends StatefulWidget {
 }
 
 class _ProductDetailsState extends State<ProductDetails> {
-  int x=Random().nextInt(5);
+  int x = Random().nextInt(5);
   bool isFav = false;
   @override
   Widget build(BuildContext context) {
