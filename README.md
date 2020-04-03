@@ -1,4 +1,4 @@
-![Image](images/rover+guide.jpg)
+![Image](images/rovers.jpg)
 # rovers_guide_flutter :boom:
 
 Rover's Guide is my Pre-Final Year Computer Science Engineering Project. The more is needed to be done.
