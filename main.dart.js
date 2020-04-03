@@ -47501,7 +47501,7 @@ a7:function(){return new O.Df(null,C.n)}}
 O.Df.prototype={
 E:function(a){var t=null
 this.jn(a)
-return M.f0(t,t,new T.aJ(new V.L(10,0,10,0),B.qx(new O.SZ(),6,t,t,C.q,!1),t),t,t,E.ZI(L.aX(C.xn,t,t),t,new P.U(),!1,new O.T_(a),"Checkout"),t,t)},
+return M.f0(t,t,new T.aJ(new V.L(10,0,10,0),B.qx(new O.SZ(),6,t,t,C.q,!1),t),t,t,E.ZI(L.aX(C.xm,t,t),t,new P.U(),!1,new O.T_(a),"Checkout"),t,t)},
 gi3:function(){return!0}}
 O.SZ.prototype={
 $2:function(a,b){var t=$.et[b]
@@ -47833,7 +47833,7 @@ E:function(a){var t,s,r,q,p,o,n,m=this,l=null,k=L.R("Rover's Guide",l,l,l,l,l,l)
 k=E.li(H.b([B.cH(l,new V.h0(C.hZ,22,l),new X.V5(a),"Notifications")],j),!1,l,!0,0,l,k)
 t=m.d
 t=D.a25(H.b([new Y.q0(l),new L.pA(l),new S.rX(l),new O.oV(l),new U.rj(l)],j),t,C.T,m.gWf(),new L.dU(l))
-s=L.aX(C.xu,l,24)
+s=L.aX(C.xt,l,24)
 r=m.e===0?K.J(a).x:K.J(a).P.Q.b
 s=B.cH(r,s,new X.V6(m),l)
 r=L.aX(C.pu,l,24)
@@ -47844,7 +47844,7 @@ p=m.e===2?K.J(a).x:K.J(a).P.Q.b
 q=B.cH(p,q,new X.V8(m),l)
 p=m.e===3?K.J(a).x:K.J(a).P.Q.b
 p=B.cH(p,new V.h0(C.xw,24,l),new X.V9(m),l)
-o=L.aX(C.xq,l,24)
+o=L.aX(C.xp,l,24)
 n=m.e===4?K.J(a).x:K.J(a).P.Q.b
 return new F.tX(M.f0(k,l,t,new B.oK(T.ce(H.b([new T.Y(7,l,l,l),s,r,q,p,B.cH(n,o,new X.Va(m),l),new T.Y(7,l,l,l)],j),C.Q,C.b7,C.G),K.J(a).c,new V.Iw(),l),l,E.ZI(L.aX(C.i_,l,l),4,C.oM,!1,new X.Vb(m),l),C.l8,C.v_),new X.Vc(),l)},
 aw:function(){this.aS()
@@ -47904,7 +47904,7 @@ Y.iz.prototype={
 a7:function(){return new Y.EO(C.n)}}
 Y.EO.prototype={
 E:function(a){var t=null
-return M.f0(E.li(t,!1,t,!0,0,B.cH(t,L.aX(C.dx,t,t),new Y.VF(a),t),L.R("Notifications",t,t,t,t,t,t)),t,new T.aJ(new V.L(10,0,10,0),B.dR(H.b([Q.dt(K.p_(C.z1,t,L.aX(C.xo,C.l,t),t),new Y.VG(),t,L.R("Your Order has been delivered successfully",t,t,t,t,t,t),t),Z.fV(t),Q.dt(K.p_(C.c1,t,L.aX(C.ps,C.l,t),t),new Y.VH(),t,L.R("Error processing your order",t,t,t,t,t,t),t),Z.fV(t),Q.dt(K.p_(C.z3,t,L.aX(C.xl,C.l,t),t),new Y.VI(),t,L.R("You order has been processed and will be delivered shortly",t,t,t,t,t,t),t),Z.fV(t),Q.dt(K.p_(C.cW,t,L.aX(C.xi,C.l,t),t),new Y.VJ(),t,L.R("Please Verify your email address",t,t,t,t,t,t),t)],u.p),t,t,!1),t),t,t,t,t,t)}}
+return M.f0(E.li(t,!1,t,!0,0,B.cH(t,L.aX(C.dx,t,t),new Y.VF(a),t),L.R("Notifications",t,t,t,t,t,t)),t,new T.aJ(new V.L(10,0,10,0),B.dR(H.b([Q.dt(K.p_(C.z1,t,L.aX(C.xn,C.l,t),t),new Y.VG(),t,L.R("Your Order has been delivered successfully",t,t,t,t,t,t),t),Z.fV(t),Q.dt(K.p_(C.c1,t,L.aX(C.ps,C.l,t),t),new Y.VH(),t,L.R("Error processing your order",t,t,t,t,t,t),t),Z.fV(t),Q.dt(K.p_(C.z3,t,L.aX(C.xl,C.l,t),t),new Y.VI(),t,L.R("You order has been processed and will be delivered shortly",t,t,t,t,t,t),t),Z.fV(t),Q.dt(K.p_(C.cW,t,L.aX(C.xi,C.l,t),t),new Y.VJ(),t,L.R("Please Verify your email address",t,t,t,t,t,t),t)],u.p),t,t,!1),t),t,t,t,t,t)}}
 Y.VF.prototype={
 $0:function(){K.cj(this.a).j6(null)
 return null},
@@ -48044,9 +48044,9 @@ return P.a6(null,s)}})
 return P.a7($async$tz,s)},
 aw:function(){this.aS()
 X.tm(H.b([],u.Bl))
-P.bQ(P.dp(0,0,6),this.gSx())},
+P.bQ(P.dp(0,0,2),this.gSx())},
 E:function(a){var t=null
-return M.f0(t,K.J(a).c,M.aW(t,new T.cX(C.D,t,t,T.lu(H.b([L.aX(C.xm,K.J(a).x,150),new T.Y(40,t,t,t),M.aW(C.D,L.R("Rover's Guide",t,t,t,t,A.T(t,t,K.J(a).x,t,t,t,t,t,t,t,t,25,t,C.ad,t,t,!0,t,t,t,t,t,t),t),t,t,t,t,t,new V.L(0,15,0,0),t,t,t),M.aW(C.D,L.R("One Stop Solution For Travellers",t,t,t,t,A.T(t,t,K.J(a).x,t,t,t,t,t,t,t,t,18,t,C.ad,t,t,!0,t,t,t,t,t,t),t),t,t,t,t,t,new V.L(0,15,0,0),t,t,t)],u.p),C.ds,C.qe,C.G),t),t,t,t,t,t,new V.L(40,0,40,0),t,t,t),t,t,t,t,t)}}
+return M.f0(t,K.J(a).c,M.aW(t,new T.cX(C.D,t,t,T.lu(H.b([L.aX(C.xu,K.J(a).x,150),new T.Y(40,t,t,t),M.aW(C.D,L.R("Rover's Guide",t,t,t,t,A.T(t,t,K.J(a).x,t,t,t,t,t,t,t,t,25,t,C.ad,t,t,!0,t,t,t,t,t,t),t),t,t,t,t,t,new V.L(0,15,0,0),t,t,t),M.aW(C.D,L.R("One Stop Solution For Travellers",t,t,t,t,A.T(t,t,K.J(a).x,t,t,t,t,t,t,t,t,18,t,C.ad,t,t,!0,t,t,t,t,t,t),t),t,t,t,t,t,new V.L(0,15,0,0),t,t,t)],u.p),C.ds,C.qe,C.G),t),t,t,t,t,t,new V.L(40,0,40,0),t,t,t),t,t,t,t,t)}}
 V.WX.prototype={
 $1:function(a){return new Z.qh(null)}}
 V.h0.prototype={
@@ -48114,11 +48114,11 @@ X.BP.prototype={
 Sg:function(a,b){var t,s,r=this,q=null,p=r.d
 if(b>=p){p=K.J(a)
 p=p.c
-t=L.aX(C.xt,p,r.x)}else{p=b>p-0.5&&b<p
+t=L.aX(C.xs,p,r.x)}else{p=b>p-0.5&&b<p
 s=r.f
 if(p){p=s==null?K.J(a).c:s
-t=L.aX(C.xs,p,r.x)}else{p=s==null?K.J(a).c:s
-t=L.aX(C.xr,p,r.x)}}return D.pT(q,t,C.T,!1,q,q,q,q,q,new X.QK(r,a),q,q,q,q,q,new X.QL(r,b),q,q,q,q,q,q)},
+t=L.aX(C.xr,p,r.x)}else{p=s==null?K.J(a).c:s
+t=L.aX(C.xq,p,r.x)}}return D.pT(q,t,C.T,!1,q,q,q,q,q,new X.QK(r,a),q,q,q,q,q,new X.QL(r,b),q,q,q,q,q,q)},
 E:function(a){var t=null
 return M.mb(C.C,!0,new T.CM(C.hy,0,P.a1M(this.c,new X.QM(this,a),!0,u.zN),t),C.X,C.bg,0,t,C.m,t,t,C.c2)}}
 X.QL.prototype={
@@ -51572,17 +51572,17 @@ C.xk=new X.bu(58131,"MaterialIcons",null,!1)
 C.dx=new X.bu(58135,"MaterialIcons",null,!0)
 C.pt=new X.bu(58313,"MaterialIcons",null,!1)
 C.xl=new X.bu(58671,"MaterialIcons",null,!1)
-C.xm=new X.bu(58746,"MaterialIcons",null,!1)
-C.xn=new X.bu(58824,"MaterialIcons",null,!0)
-C.xo=new X.bu(58826,"MaterialIcons",null,!1)
+C.xm=new X.bu(58824,"MaterialIcons",null,!0)
+C.xn=new X.bu(58826,"MaterialIcons",null,!1)
 C.hZ=new X.bu(59380,"MaterialIcons",null,!1)
-C.xq=new X.bu(59389,"MaterialIcons",null,!1)
-C.xr=new X.bu(59448,"MaterialIcons",null,!1)
-C.xs=new X.bu(59449,"MaterialIcons",null,!0)
-C.xt=new X.bu(59450,"MaterialIcons",null,!1)
+C.xp=new X.bu(59389,"MaterialIcons",null,!1)
+C.xq=new X.bu(59448,"MaterialIcons",null,!1)
+C.xr=new X.bu(59449,"MaterialIcons",null,!0)
+C.xs=new X.bu(59450,"MaterialIcons",null,!1)
 C.pu=new X.bu(59517,"MaterialIcons",null,!1)
 C.lo=new X.bu(59518,"MaterialIcons",null,!1)
-C.xu=new X.bu(59530,"MaterialIcons",null,!1)
+C.xt=new X.bu(59530,"MaterialIcons",null,!1)
+C.xu=new X.bu(59532,"MaterialIcons",null,!1)
 C.pv=new X.bu(59545,"MaterialIcons",null,!1)
 C.pw=new X.bu(59558,"MaterialIcons",null,!1)
 C.xv=new X.bu(59569,"MaterialIcons",null,!1)
@@ -51592,8 +51592,8 @@ C.xx=new T.cZ(C.K,null,null)
 C.lp=new T.cZ(C.m,1,24)
 C.px=new T.cZ(C.m,null,null)
 C.lq=new T.cZ(C.l,null,null)
-C.xp=new X.bu(58834,"MaterialIcons",null,!1)
-C.xy=new L.lP(C.xp,null,null,null)
+C.xo=new X.bu(58834,"MaterialIcons",null,!1)
+C.xy=new L.lP(C.xo,null,null,null)
 C.xz=new L.lP(C.i_,null,null,null)
 C.xA=new X.lQ("ImageRepeat.repeat")
 C.xB=new X.lQ("ImageRepeat.repeatX")
