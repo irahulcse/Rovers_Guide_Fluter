@@ -29,7 +29,8 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home> {
   @override
   Widget build(BuildContext context) {
 
-    double stars=Random().nextDouble();
+    int stars1=Random().nextInt(5);
+    double stars2=stars1+0.0;
     int r2=Random().nextInt(100);
     //int stars=Random().nextInt(5);
     super.build(context);
@@ -174,7 +175,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home> {
                   img: food['img'],
                   isFav: false,
                   name: food['name'],
-                  rating: stars,
+                  rating: stars2,
                   raters: r2,
                 );
               },
