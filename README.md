@@ -1,11 +1,17 @@
+![Image](images/rover+guide.jpg)
 # rovers_guide_flutter :boom:
 
-Rover's Guide is my Pre-Final Year Computer Science Engineering Project. The more is needed to be done
+Rover's Guide is my Pre-Final Year Computer Science Engineering Project. The more is needed to be done.
 
 
+### Show some love :heart: and star the repo to support the project
+
+If you had like the project pls hit the star :+1: icon.
+
+The Parent Repository of this project can be found on this [link](https://github.com/irahulcse/A-Complete-Guide-To-Flutter).
 
 # Live Working Project:
-[Demo Application](https://play.google.com/store/apps/details?id=com.mtechviral.fluttermusicplayer)
+[Demo Application](https://irahulcse.github.io/Rovers_Guide_Fluter/)
 
 ## Features Needed to Be Added:
 
@@ -28,15 +34,10 @@ I am currently looking for Full Time/ Internship Offer for any Software Developm
 
 ### Screenshots and Working GIFS:
 
-<img src="flutey.gif" height="300em" /> <img src="flute1.png" height="300em" /> <img src="flute2.png" height="300em" /> <img src="flute3.png" height="300em" /> <img src="flute4.png" height="300em" /><img src="flute5.png" height="300em" />
+<img src="rovers.gif" height="300em" /> <img src="1.jpg" height="300em" /> <img src="2.png" height="300em" /> <img src="4.png" height="300em" /> <img src="3.png" height="300em" /><img src="flute5.png" height="300em" />
 
 
  Sorry for the quality of the GIF :pray:
-### Show some love :heart: and star the repo to support the project
-
-If you had like the project pls hit the star :+1: icon.
-
-
 
 ### Testing
 
