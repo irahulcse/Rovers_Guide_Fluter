@@ -6,7 +6,7 @@ const RESOURCES = {
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/assets/AssetManifest.json": "b1541599f1195076b9cecb47e0f8972f",
-"/assets/LICENSE": "8c1379a320a0aada4f951bf9048ca84f",
+"/assets/LICENSE": "d41f929d72d4b5815ee68ee106eeffd5",
 "/assets/assets/food10.jpeg": "a10f0eabd4bc5199e861ff80e9da0a50",
 "/assets/assets/logo.png": "e45b8ae0d603e47a4f52ab2699a333cb",
 "/assets/assets/food6.jpeg": "4b2b09b3ba8bd59e396c5df21bdaacbe",
@@ -39,7 +39,7 @@ const RESOURCES = {
 "/assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "/assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "/assets/FontManifest.json": "18eda8e36dfa64f14878d07846d6e17f",
-"/main.dart.js": "e3ec15da404dcf65329c7802b8a805bb",
+"/main.dart.js": "9334b2ec5d974019c455b0e7b41936f6",
 "/index.html": "895b79313f2c0cd5e8cfed1371060120"
 };
 
