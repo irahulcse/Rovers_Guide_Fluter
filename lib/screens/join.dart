@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:rovers_guide/screens/login.dart';
 import 'package:rovers_guide/screens/register.dart';
 import 'package:flutter/services.dart';
-import 'package:rovers_guide/util/const.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class JoinApp extends StatefulWidget {
   @override
