@@ -19,8 +19,6 @@ The Parent Repository of this project can be found on this [link](https://github
 * [✅] Nice UI Design
 * [✅] Logout Option Working
 * [❌] Register and Login Feature will be updated soon using Firebase.
-* [✅] Live Working Project
-* [✅] Live Working Project
 
 ### Created with :heart:
 A a Pre-Final Year Computer Science Student, an experienced Software Developer with a demonstrated history of working in the information technology and services industry. Seasoned Competative Coder. Skilled in C++, Python, Data Analysis, Java, Dart and Julia. Strong information technology professional with a Bachelor of Engineering - BE focused in Computer Science from Chandigarh University. 
