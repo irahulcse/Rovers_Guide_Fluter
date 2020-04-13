@@ -5,7 +5,7 @@ const RESOURCES = {
 "/manifest.json": "bb97c5c157cb4226231fd2bbe11435c8",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"/assets/AssetManifest.json": "b1541599f1195076b9cecb47e0f8972f",
+"/assets/AssetManifest.json": "1921e272f465a59ea25bb0873d4303b8",
 "/assets/LICENSE": "d41f929d72d4b5815ee68ee106eeffd5",
 "/assets/assets/food10.jpeg": "a10f0eabd4bc5199e861ff80e9da0a50",
 "/assets/assets/logo.png": "e45b8ae0d603e47a4f52ab2699a333cb",
@@ -14,7 +14,6 @@ const RESOURCES = {
 "/assets/assets/cc.png": "452a25466e5aa85987d005d17a9117c7",
 "/assets/assets/food8.jpeg": "65221fbb33600b0c293d8109e5bd7146",
 "/assets/assets/cm1.jpeg": "a928962696760e23579bdc358453301f",
-"/assets/assets/subhu.png": "ba3a72f3e4350699915070e206755793",
 "/assets/assets/cm4.jpeg": "5787ab2f6f13d3eac7493e4b7bd94389",
 "/assets/assets/food5.jpeg": "a9fac937c06ea8979573dda27825d17d",
 "/assets/assets/food2.jpeg": "957bd60e51795c367ff6d603ff83eb76",
@@ -32,6 +31,7 @@ const RESOURCES = {
 "/assets/assets/on3.png": "5114ae0194f381c1a0dcd6a7baf6bfca",
 "/assets/assets/on1.png": "c7586deb30549975df91f54998e099a7",
 "/assets/assets/cm3.jpeg": "8502ba3da54db5754d421e6a1acdb580",
+"/assets/assets/rahul.jpg": "7df8349565b7f0cf6cd8948fe925d307",
 "/assets/assets/hotel7.jpg": "862ce0fc592de13483f81f83f6315a4f",
 "/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "/assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
@@ -39,7 +39,7 @@ const RESOURCES = {
 "/assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "/assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "/assets/FontManifest.json": "18eda8e36dfa64f14878d07846d6e17f",
-"/main.dart.js": "9334b2ec5d974019c455b0e7b41936f6",
+"/main.dart.js": "bcb43d49b3b4265002888df0e9285313",
 "/index.html": "895b79313f2c0cd5e8cfed1371060120"
 };
 

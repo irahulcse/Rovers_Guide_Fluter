@@ -48305,8 +48305,8 @@ $S:0}
 U.rp.prototype={
 a7:function(){return new U.Fx(C.n)}}
 U.Fx.prototype={
-G:function(a){var t,s,r,q,p,o,n,m=null,l="mainsubhuhoonkoishaadikarlo@gmail.com",k=u.p,j=T.cg(H.b([new T.aL(new V.N(10,0,10,0),U.z_("assets/subhu.png",C.cf,100,100),m),new T.pD(3,C.hV,T.lx(H.b([T.cg(H.b([L.S("Subhashree Behenra",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,20,m,C.ad,m,m,!0,m,m,m,m,m,m),m)],k),C.Q,C.b7,C.G),new T.a0(m,5,m,m),T.cg(H.b([L.S(l,m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,14,m,C.ad,m,m,!0,m,m,m,m,m,m),m)],k),C.Q,C.b7,C.G),new T.a0(m,20,m,m),T.cg(H.b([R.jX(!1,!0,L.S("Logout",m,C.bb,m,m,A.V(m,m,K.M(a).x,m,m,m,m,m,m,m,m,13,m,C.B,m,m,!0,m,m,m,m,m,m),m),m,!0,m,m,m,m,m,m,m,m,new U.Yj(a),m)],k),C.Q,C.b7,C.G)],k),C.cj,C.a7,C.G),m)],k),C.Q,C.a7,C.G),i=Z.fY(m),h=M.aZ(m,m,m,m,m,m,15,m,m,m,m),g=L.S("Account Information".toUpperCase(),m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,16,m,C.ad,m,m,!0,m,m,m,m,m,m),m),f=L.S("Full Name",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
-f=Q.dv(m,m,L.S("Subhashree",m,m,m,m,m,m),f,B.cK(m,L.b_(C.pu,m,20),new U.Yk(),"Edit"))
+G:function(a){var t,s,r,q,p,o,n,m=null,l="1rahulchandra1@gmail.com",k=u.p,j=T.cg(H.b([new T.aL(new V.N(10,0,10,0),U.z_("assets/rahul.jpg",C.cf,100,100),m),new T.pD(3,C.hV,T.lx(H.b([T.cg(H.b([L.S("Rahul Chandra",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,20,m,C.ad,m,m,!0,m,m,m,m,m,m),m)],k),C.Q,C.b7,C.G),new T.a0(m,5,m,m),T.cg(H.b([L.S(l,m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,14,m,C.ad,m,m,!0,m,m,m,m,m,m),m)],k),C.Q,C.b7,C.G),new T.a0(m,20,m,m),T.cg(H.b([R.jX(!1,!0,L.S("Logout",m,C.bb,m,m,A.V(m,m,K.M(a).x,m,m,m,m,m,m,m,m,13,m,C.B,m,m,!0,m,m,m,m,m,m),m),m,!0,m,m,m,m,m,m,m,m,new U.Yj(a),m)],k),C.Q,C.b7,C.G)],k),C.cj,C.a7,C.G),m)],k),C.Q,C.a7,C.G),i=Z.fY(m),h=M.aZ(m,m,m,m,m,m,15,m,m,m,m),g=L.S("Account Information".toUpperCase(),m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,16,m,C.ad,m,m,!0,m,m,m,m,m,m),m),f=L.S("Full Name",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
+f=Q.dv(m,m,L.S("Rahul",m,m,m,m,m,m),f,B.cK(m,L.b_(C.pu,m,20),new U.Yk(),"Edit"))
 t=L.S("Email",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
 t=Q.dv(m,m,L.S(l,m,m,m,m,m,m),t,m)
 s=L.S("Phone",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
@@ -48314,9 +48314,9 @@ s=Q.dv(m,m,L.S("8146582353",m,m,m,m,m,m),s,m)
 r=L.S("Address",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
 r=Q.dv(m,m,L.S("NH-95, Ludhiana - Chandigarh State Hwy, Punjab 140413",m,m,m,m,m,m),r,m)
 q=L.S("Gender",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
-q=Q.dv(m,m,L.S("Female",m,m,m,m,m,m),q,m)
+q=Q.dv(m,m,L.S("Male",m,m,m,m,m,m),q,m)
 p=L.S("Date of Birth",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
-p=Q.dv(m,m,L.S("April 9, 1999",m,m,m,m,m,m),p,m)
+p=Q.dv(m,m,L.S("Jan 12, 1999",m,m,m,m,m,m),p,m)
 o=L.S("Dark Theme",m,m,m,m,A.V(m,m,m,m,m,m,m,m,m,m,m,17,m,C.ad,m,m,!0,m,m,m,m,m,m),m)
 n=!J.d(Y.Q7(a,!0,u.sl).a,$.HS())||!1
 return M.f3(m,m,new T.aL(new V.N(10,0,10,0),B.dT(H.b([j,i,h,new T.aL(new V.N(5,5,5,5),g,m),f,t,s,r,q,p,Q.dv(m,m,m,o,new N.ts(n,new U.Yl(a),K.M(a).x,m))],k),m,m,!1),m),m,m,m,m,m)}}
