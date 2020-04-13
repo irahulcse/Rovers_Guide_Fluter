@@ -23,7 +23,7 @@ class _ProfileState extends State<Profile> {
                 Padding(
                   padding: EdgeInsets.only(left: 10.0, right: 10.0),
                   child: Image.asset(
-                    "assets/subhu.png",
+                    "assets/rahul.jpg",
                     fit: BoxFit.cover,
                     width: 100.0,
                     height: 100.0,
@@ -37,7 +37,7 @@ class _ProfileState extends State<Profile> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            "Subhashree Behenra",
+                            "Rahul Chandra",
                             style: TextStyle(
                               fontSize: 20.0,
                               fontWeight: FontWeight.bold,
@@ -50,7 +50,7 @@ class _ProfileState extends State<Profile> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            "mainsubhuhoonkoishaadikarlo@gmail.com",
+                            "1rahulchandra1@gmail.com",
                             style: TextStyle(
                               fontSize: 14.0,
                               fontWeight: FontWeight.bold,
@@ -111,7 +111,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "Subhashree",
+                "Rahul",
               ),
               trailing: IconButton(
                 icon: Icon(
@@ -131,7 +131,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "mainsubhuhoonkoishaadikarlo@gmail.com",
+                "1rahulchandra1@gmail.com",
               ),
             ),
             ListTile(
@@ -167,7 +167,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "Female",
+                "Male",
               ),
             ),
             ListTile(
@@ -179,7 +179,7 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
               subtitle: Text(
-                "April 9, 1999",
+                "Jan 12, 1999",
               ),
             ),
             ListTile(
